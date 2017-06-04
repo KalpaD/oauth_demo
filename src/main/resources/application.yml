@@ -1,0 +1,12 @@
+oauth:
+  clientIdGitHub: YOUR_clientIdGitHub
+  clientIdIg: YOUR_clientIdIg
+  clientSecretGitHub: YOUR_clientSecretGitHub
+  clientSecretIg: YOUR_clientSecretIg
+  redirectUrlGitHub: http://localhost:8080/redirect
+  redirectUrlIg: http://localhost:8080/code
+  gitHubUsername: YOUR_gitHubUsername
+  gitHubPassword: YOUR_gitHubPassword
+  authUrlGitHub: https://github.com/login/oauth/authorize
+  authUrlIg: https://api.instagram.com/oauth/authorize
+  tokenUrlGitHub: https://github.com/login/oauth/access_token
