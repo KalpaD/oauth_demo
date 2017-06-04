@@ -12,39 +12,39 @@ Intellij IDEA or Eclipse installed.
 
 ## Getting Started
 
-Start by cloning the project as follows.
+1. Start by cloning the project as follows.
 
     ```
     git clone https://github.com/KalpaD/oauth_demo.git
     ```
 
-    Create GitHub application by visiting following url.
+2. Create GitHub application by visiting following url.
 
     ```
     https://github.com/settings/applications/new
     ```
 
-    Copy the Client ID and Client Secret to relevant fields in /src/main/resources/application.yml
+3. Copy the Client ID and Client Secret to relevant fields in /src/main/resources/application.yml
 
 
-    Create Instagram application by visiting following url
+4. Create Instagram application by visiting following url
 
     ```
     https://www.instagram.com/developer/ -> Manage Clients
     ```
 
-    Copy the Client ID and Client Secret to relevant fields in /src/main/resources/application.yml
+5. Copy the Client ID and Client Secret to relevant fields in /src/main/resources/application.yml
 
 
-    Go to Security tab there and add following as the redirect url.
+6. Go to Security tab there and add following as the redirect url.
 
     ```
     http://localhost:8080/code
     ```
 
-    Deselect the Disable implicit OAuth check box.
+7. Deselect the Disable implicit OAuth check box.
 
-    Sample of the application.yml file
+8. Sample of the application.yml file
 
     ```
     oauth:
@@ -61,19 +61,19 @@ Start by cloning the project as follows.
       tokenUrlGitHub: https://github.com/login/oauth/access_token
     ```
 
-1. Go to the project root directory and run the application using following command.
+9. Go to the project root directory and run the application using following command.
 
     ```
     mvn spring-boot:run
     ```
 
-2. You will have the application running on
+10. You will have the application running on
 
     ```
     http://localhost:8080
     ```
 
-3. The endpoints list are as follows.
+11. The endpoints list are as follows.
 
     Authorisation Code Grant Flow
     ```
