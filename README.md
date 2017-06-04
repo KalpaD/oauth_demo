@@ -13,13 +13,14 @@ Intellij IDEA or Eclipse installed.
 ## Getting Started
 
 Start by cloning the project as follows.
-
-git clone https://github.com/KalpaD/oauth_demo.git
+    ```
+    git clone https://github.com/KalpaD/oauth_demo.git
+    ```
 
 1. Go to the project root directory and run the application using following command.
 
     ```
-    mvn spring-boot: run
+    mvn spring-boot:run
     ```
 
 2. You will have the application running on
