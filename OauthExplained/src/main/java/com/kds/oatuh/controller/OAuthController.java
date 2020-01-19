@@ -146,7 +146,7 @@ public class OAuthController {
      */
     @RequestMapping("/redirect")
     public String typeCode(@RequestParam(name = "code") String code) {
-        logger.info("Authorization code recived as : {}", code);
+        logger.info("Authorization code received as : {}", code);
         logger.info("Exchange authorization code for access_token will commence.");
         UriComponents uriComponents = UriComponentsBuilder.fromUriString(GITHUB_TOKEN_URL)
                 .build();
