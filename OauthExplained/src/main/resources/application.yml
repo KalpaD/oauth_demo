@@ -1,12 +1,12 @@
 oauth:
-  clientIdGitHub: YOUR_clientIdGitHub
+  clientIdGitHub: b0c39b49c3cda4b96605
   clientIdIg: YOUR_clientIdIg
-  clientSecretGitHub: YOUR_clientSecretGitHub
+  clientSecretGitHub: 56c69972b9ef32a6a2a661718c7ea20bd1791a34
   clientSecretIg: YOUR_clientSecretIg
   redirectUrlGitHub: http://localhost:8080/redirect
   redirectUrlIg: http://localhost:8080/code
-  gitHubUsername: YOUR_gitHubUsername
-  gitHubPassword: YOUR_gitHubPassword
+  gitHubUsername: kalpa.senanayake@gmail.com
+  gitHubPassword: j2meblog
   authUrlGitHub: https://github.com/login/oauth/authorize
   authUrlIg: https://api.instagram.com/oauth/authorize
   tokenUrlGitHub: https://github.com/login/oauth/access_token
